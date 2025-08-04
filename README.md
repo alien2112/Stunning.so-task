@@ -252,32 +252,6 @@ The system randomly selects one from each category to create unique combinations
    - Invalid server responses
    ```
 
-## 🚀 Deployment
-
-### Frontend (Vercel)
-```bash
-cd frontend
-npm run build
-# Deploy to Vercel or your preferred platform
-```
-
-### Backend (Railway/Heroku)
-```bash
-cd backend
-npm run build
-# Configure environment variables in deployment platform
-```
-
-### Environment Variables for Production
-```bash
-# Backend
-MONGODB_URI=mongodb+srv://production-credentials
-PORT=3001
-NODE_ENV=production
-
-# Frontend
-NEXT_PUBLIC_API_URL=https://your-api-domain.com
-```
 
 ## 🔄 Development Workflow
 
@@ -293,17 +267,9 @@ NEXT_PUBLIC_API_URL=https://your-api-domain.com
 3. Test both light and dark themes
 4. Validate accessibility requirements
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
 
-## 📄 License
 
-This project is built as a technical demonstration. Feel free to use it as a reference for your own projects.
 
 ## 🙏 Acknowledgments
 
@@ -478,7 +444,7 @@ This project was built using AI-assisted development tools to demonstrate:
 - **User Accounts**: Save and manage personal ideas
 - **Export Options**: PDF, JSON, or code generation
 - **Collaboration**: Share ideas with teams
-- **Analytics**: Track popular website types and sections
+
 
 ## 🐛 Troubleshooting
 
@@ -494,9 +460,6 @@ sudo systemctl status mongod       # Linux
 - Frontend runs on port 3000
 - Make sure ports are available
 
-### CORS Issues
-- Backend is configured for localhost:3000 and localhost:3001
-- Check environment variables if hosting elsewhere
 
 ## 📝 Notes
 
